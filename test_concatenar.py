@@ -1,4 +1,4 @@
-from concatenar.py import concatenar
+from concatenar import concatenar
 
 def test_concatenar():
     assert concatenar("A,", "B") == "A,B"
